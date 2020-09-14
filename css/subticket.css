@@ -1,0 +1,85 @@
+.wrapper{
+	width: 87%;
+	margin-top: 80px;
+	margin-left: 13%;
+	color: black;
+}
+
+div.head{
+    padding: 30px;
+    text-align: center;
+}
+
+div.head section{
+    height: auto;
+    width: auto;
+}
+
+div.head section p{
+    padding: 40px;
+}
+
+section.subticket{
+    /* background-color: lightgrey; */
+    padding:  40px ;
+    display: grid;
+    width: 80%;
+    grid-template-columns: 20% 1fr;
+}
+
+section.subticket input{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+section.labels{
+    margin-top: 13px;
+}
+
+section.labels label{
+    display: inline-block;
+    font-size: large;
+    margin-bottom: 40px;
+} 
+
+section.fields {
+    display: grid;
+}
+section.fields textarea{
+    width: 100%;
+    height: 300px;
+    padding: 20px;
+}
+
+section.fields input[type=file]{
+    width: 300px;
+    background-color: white;
+    
+}
+
+section.fields input{
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 5px 20px 20px 0px #00061a;
+    color: #00061a;
+}
+
+section.fields input:hover, textarea:hover{
+    border: 2px solid orange;
+}
+section.fields button{
+    height: 40px;
+    width: 100px;
+    background-color: #00061a;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    
+}

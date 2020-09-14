@@ -1,0 +1,72 @@
+.wrapper{
+	width: 87%;
+	display: flex;
+	margin-top: 80px;
+	padding: 10px;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+	background-color: white;
+}
+section.left{
+	width: 100%;
+	/* margin-left: 80px; */
+	/* text-align: center; */
+	box-shadow: 0px 6px 10px 0 #ffa500;
+	padding: 40px;
+	display: flex;
+
+}
+section.left img{
+	width: 80px;
+	height: 80px;
+	margin: 30px;
+}
+section.left label{
+	font-size: 14px;
+	padding:10px;
+}
+section.left input{
+	height: 30px;
+	width: 250px;
+	text-align: center;
+	border-radius: 8px;
+	outline: none;
+}
+section.left input[type=file]{
+	background-color: lightgrey;
+	text-align: center;
+}
+section.left button{
+	height: 40px;
+	width: 100px;
+	cursor: pointer;
+	margin-bottom: 20px;
+	background-color: #00061a;
+	outline: none;
+	border: none;
+	color: white;
+	border-radius: 5px;
+}
+section.right{
+	background-color: #fff6e6;
+	height: 100%;
+	width: 200px;
+}
+
+section.right ul{
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+}
+
+section.right ul li{
+	text-align: left;
+	margin-bottom: 12px;
+}
+
+section .profileimg {
+	margin: 20px;
+	text-align: center;
+}

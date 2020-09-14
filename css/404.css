@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0 ;
+    padding: 0;
+    font-family: cursive;
+}
+
+body{
+    width: 70%;
+    margin: auto;
+}
+section{
+    text-align: center;
+    color: #00061a;
+}
+
+section img{
+    width: 500px;
+}
+section h1{
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+section a{
+    text-decoration: none;
+    color: #00061a;
+}
+section ul{
+    display: flex;
+    list-style: none;
+    position: relative;
+    padding: 10px;
+    left: 8%;
+    margin-top: 20px;
+}
+
+section ul li{
+    text-align: center;
+    margin-right: 40px;
+    font-size: 17px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+section ul a li:hover{
+    background-color: lightgrey;
+}

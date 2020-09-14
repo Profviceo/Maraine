@@ -1,0 +1,159 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	height: 2000px;
+	font-family: cursive;
+	font-weight: lighter;
+	font-size: 13px;
+}
+.main{
+	display:flex;
+	z-index: 100;
+
+}
+.body-1{
+	width: 30%;
+	height: 100%;
+	flex: 1;
+}
+.body-2{
+	padding-left: 10px;
+	flex: 7;
+	position: fixed;
+	width: 88%;
+	background-color: white;
+	left: 12%;
+}
+
+.container{
+	position: fixed;
+	height: 100%;
+	background-color: #00061a;
+	display: flex;
+	flex-direction: column;
+	/*justify-content: space-between;*/
+	z-index: 100;
+	width: 175px;
+}
+.container-1{
+	display: flex;
+	justify-content: space-around;
+	background-color:   #ffa500;
+	text-align: center;
+
+}
+.container-1  a{
+	text-decoration: none;
+	color: white;
+}
+.profile_img{
+	width: 70px;
+	height: 80px;
+	margin-top: 15px;
+	border-radius: 50% 50% 50% 50%;
+
+}
+.container-2{
+	display: flex;
+	/*justify-content: space-around;*/
+	text-align: center;
+}
+.container-2 ul{
+	list-style: none;
+	align-items: center;
+	
+}
+
+.container-2 ul li{
+	padding: 10px;
+	margin-top: 40px;
+}
+.container-2 ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 15px;
+}
+.container-2 ul li:hover,.active{
+	box-shadow: 1px 1px 4px 1px #ffa500;
+	width: 98%;
+	border-radius: 3px;
+}
+
+.container-3{
+	color: white;
+	text-align: center;
+	background-color: #ffa500;
+	width: 100%;
+	height: 30px;
+}
+.container-3 p  a{
+	text-decoration: none;
+	color: white;
+	padding: 15px;
+}
+
+.container-3 img{
+	height: 20px;
+	width: 20px;
+}
+.student_details{
+	background-color: #00061a;
+	padding: 15px;
+}
+.student_details ul{
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+.student_details ul li {
+	border: 1.4px solid #ffa500;
+	padding: 2px;
+	color: white;
+	cursor: pointer;
+}
+
+.student_details ul li:last-child{
+	border: none;
+}
+
+.bell{
+	padding:5px;
+	background-color: red;
+	cursor: pointer;
+}
+
+section p.error  {
+	color: red;
+	font-size: 15px;
+	animation-name: erroranim;
+	animation-duration: 1s;
+	animation-delay: .5s;
+	animation-fill-mode: forwards;
+	position: relative;
+
+}
+
+
+section p.success  {
+	color: green;
+	font-size: 15px;
+	animation-name: erroranim;
+	animation-duration: 1s;
+	animation-delay: .5s;
+	animation-fill-mode: forwards;
+	position: relative;
+	
+}
+
+@keyframes erroranim{
+	0%{left: 0px;}
+	20%{left: 20px;}
+	40%{left: -20px;}
+	60%{left: 20px;}
+	80%{left: -20px;}
+	100%{left: 0px;}
+}

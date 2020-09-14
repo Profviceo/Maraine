@@ -1,0 +1,69 @@
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding: 0;
+}
+
+body{
+	background-color: #00061a;
+	color: white;
+	font-family: cursive;
+	font-weight: lighter;
+	font-size: 15px;
+}
+
+section.body{
+	display: flex;
+	position: relative;
+	justify-content: space-between;
+}
+
+section .imagesection{
+	height: 100%;
+	order: 2;
+	border-left: 3px solid white;
+}
+
+section .loginform{
+	order:1;
+	margin: auto;
+	text-align: center;
+	align-items: center;
+
+}
+
+section .loginform  svg{
+	margin-bottom: 60px;
+}
+section .loginform input{
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	padding: 10px;
+	outline: none;
+	border: none;
+	border-radius: 10px;
+}
+section .loginform input:hover,section .loginform input:active{
+	box-shadow: 0px 2px  1px 2px #ffa500;
+	background-color: transparent;
+	color: white!important;
+}
+
+section .loginform button{
+	width: 100px;
+	height: 40px;
+	background-color: #ffa500;
+	border-radius: 6px;
+	border: none;
+	cursor: pointer;
+}
+section .loginform button:hover{
+	background-color: transparent;
+	border: 2px solid #ffa500;
+	color: white;
+
+}
+section .loginform a{
+	color: #ffa500;
+}

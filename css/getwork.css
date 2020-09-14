@@ -1,0 +1,60 @@
+
+.wrapper{
+	width: 87%;
+	margin-top: 80px;
+	margin-left: 13%;
+	color: black;
+	background-color: lightgrey;
+	height: 100%;
+}
+
+section.getwork{
+	width: 700px;
+	margin: auto;
+}
+
+section.getwork h1{
+	padding-top: 100px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid black;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+section.getwork  button { 
+	padding: 10px;
+	cursor: pointer;
+}
+
+section.submit{
+	width: max-content;
+	margin: auto;
+	padding-top: 80px;
+	text-align: center;
+	font-size:  medium;
+}
+
+section.submit form input{
+	width: 250px;
+	margin: 10px;
+	height: 40px;
+	text-align: center;
+	outline: none;
+}
+
+section.submit form input[type=file]{
+	background-color: darkgrey;
+	padding: 5px;
+}
+
+section.submit form textarea{
+	height: 100px;
+	width: 100%;
+	outline: none;
+}
+
+section.submit form button{
+	height: 40px;
+	width: 150px;
+	cursor: pointer;
+}
